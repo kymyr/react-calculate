@@ -1,6 +1,5 @@
 # react-calculate
-![calculator-app](https://github.com/kymyr/react-calculate/assets/62489380/15506a21-d77a-4bbb-badd-1da51a03d142)
-
+![calculator-app](https://github.com/kymyr/react-calculate/assets/62489380/980705da-505b-462d-8431-bb4418e95990)
 
 Instructions: https://www.coursera.org/learn/react-basics/peer/soC8w/peer-review-build-a-calculator-app
 

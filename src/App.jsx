@@ -6,7 +6,7 @@ const App = () => {
   const resultRef = useRef(null);
   const [result, setResult] = useState(0);
 
-  // function for add
+  // function for addition
   const plus = (e) => {
     e.preventDefault();
     const num = inputRef.current.value;
@@ -16,7 +16,7 @@ const App = () => {
     });
   };
 
-    // function for minus
+    // function for subtraction
     const minus = (e) => {
       e.preventDefault();
       const num = inputRef.current.value;
@@ -26,7 +26,7 @@ const App = () => {
       });
     };
 
-    // function for times
+    // function for multiplication
     const times = (e) => {
       e.preventDefault();
       const num = inputRef.current.value;
@@ -36,7 +36,7 @@ const App = () => {
       });
     };
 
-    // function for devide
+    // function for division
     const divide = (e) => {
       e.preventDefault();
       const num = inputRef.current.value;
@@ -75,12 +75,12 @@ const App = () => {
           placeholder="Type a number"
         />
         <br />
-        <button onClick={plus}>add</button>
-        <button onClick={minus}>subtract</button>
-        <button onClick={times}>multiply</button>
-        <button onClick={divide}>devide</button>
-        <button onClick={resetInput} className="btn1">reset input</button>
-        <button onClick={restResult} className="btn2">reset result</button>
+        <button onClick={plus}>Add</button>
+        <button onClick={minus}>Subtract</button>
+        <button onClick={times}>Multiply</button>
+        <button onClick={divide}>Divide</button>
+        <button onClick={resetInput} className="btn1">Reset input</button>
+        <button onClick={restResult} className="btn2">Reset result</button>
       </form>
     </div>
   );

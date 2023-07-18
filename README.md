@@ -5,6 +5,6 @@ Instructions: https://www.coursera.org/learn/react-basics/peer/soC8w/peer-review
 
 Prior to running the project, run the following command on the terminal to install the dependencies: `npm i`
 
-## To run the project,
+## Run the project
 
 ### `npm run dev`
